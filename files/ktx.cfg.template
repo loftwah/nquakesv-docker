@@ -142,3 +142,9 @@ set k_no_wizard_animation       0               // wizard animation (0 = on, 1 =
 set k_race                  1           // race (0 = off, 1 = on)
 set k_race_custom_models    0           // or 1 if you have the models
 set k_race_autorecord       1           // auto-record race demos
+
+// movement settings
+serverinfo pm_bunnyspeedcap     0               // cap bunny jumping speed (0 = off, 1 or higher = cap to (n * class maxspeed))
+serverinfo pm_slidefix          0               // fix sliding on slopes (0 = off, 1 = on)
+serverinfo pm_airstep           1               // allow jumping up stairs (0 = off, 1 = on)
+serverinfo pm_pground           0               // persistent onground flag - makes pm_airstep work better (0 = off, 1 = on)
