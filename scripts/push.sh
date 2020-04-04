@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker push niclaslindstedt/nquakesv
+docker push fortressone/nquakesv
